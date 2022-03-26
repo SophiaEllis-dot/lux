@@ -23,3 +23,7 @@ export { default as BottomNavMobile } from "./bottomNavMobile/bottomNavMobile";
 export { default as PortfolioWeb } from "./leftAside/portfolioWeb";
 export { default as CounterComponent } from "./leftAside/counterComponent";
 export { default as NavListWeb } from "./leftAside/navListWeb";
+export { default as ProfilePic } from "./leftAside/profilePic";
+
+export { default as LocationTag } from "./locationTag";
+export { default as Hoverlink } from "./hoverLink";

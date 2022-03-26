@@ -4,7 +4,7 @@ import { RiArrowDownSLine } from "react-icons/ri";
 
 const TopNav = () => {
   return (
-    <nav className="bg-primary w-screen py-3 px-10 fixed top-0 flex items-center justify-between">
+    <nav className="bg-primary w-screen py-3 px-10 fixed top-0 flex items-center justify-between z-50">
       <Logo width={10} />
       <Search />
       <div className="md:hidden">
