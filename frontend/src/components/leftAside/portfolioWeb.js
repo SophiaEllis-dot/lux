@@ -3,10 +3,10 @@ import { ProfilePic, LocationTag, Hoverlink } from "..";
 
 const PortfolioWeb = () => {
   return (
-    <div className="rounded-md text-sm flex flex-col absolute top-30 bg-gray-300 space-y-2 text-white items-center">
-      <div className="bg-gray-800 h-10 w-full">
-        <div className="w-fit">
-          <ProfilePic />
+    <div className="rounded-md text-sm flex flex-col w-min top-30 bg-gray-300 space-y-10 pb-3 text-white items-center">
+      <div className="bg-gray-800 h-10 w-full relative rounded-t-md">
+        <div className="absolute top-3 mx-auto flex justify-center w-full">
+          <ProfilePic border_bg="gray-300" />
         </div>
       </div>
 
